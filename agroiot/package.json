@@ -1,0 +1,41 @@
+{
+  "name": "agroiot",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.8.1",
+    "nachos-ui": "^0.1.2",
+    "native-base": "^2.3.6",
+    "react": "^16.2.0",
+    "react-moment": "^0.7.0",
+    "react-native": "^0.52.0",
+    "react-native-accordion": "^1.0.1",
+    "react-native-bar-collapsible": "^1.6.0",
+    "react-native-cli": "^2.0.1",
+    "react-native-collapse-view": "^1.0.0",
+    "react-native-collapsible": "^0.10.0",
+    "react-native-elements": "^0.19.0",
+    "react-native-icons": "^0.7.1",
+    "react-native-material-textfield": "^0.11.0",
+    "react-native-router-flux": "^4.0.0-beta.27",
+    "react-native-searchbar": "^1.14.0",
+    "react-native-template": "0.0.1-rc1",
+    "react-redux": "^5.0.6",
+    "react-timestamp": "^4.4.0",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
